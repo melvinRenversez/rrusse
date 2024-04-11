@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="content">
+        <div class="top">
+            <input type="number" id="nb_bales" value="6">
+            <button id="btn_bales" onclick="startGame()">Valide</button>
+        </div>
+        <div class="mid">
+            <p>il ne reste plus que <span id="text_bales_restant">x</span> bales</p>
+            <p id="qui_joue"></p>
+        </div>
+        <div class="bot">
+            <button onclick="tirer()" id="btn_tire">
+                tirer
+            </button>
+        </div>
+    </div>
+</body>
+</html>
+<script src="script.js"></script>
