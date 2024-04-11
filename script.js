@@ -19,11 +19,11 @@ function restartGame(){
     nb_bales_restant = 0
     chargeur = [];
     nb_tire = -1;
-    life = true
     shoot = ""
 }
 
 function startGame(){
+    life = true
     nb_bales_restant = text_nb_bales.value
     console.log(nb_bales_restant)
     text_nb_bales.disabled = true
