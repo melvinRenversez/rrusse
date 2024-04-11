@@ -11,7 +11,6 @@ var nb_tire = 0;
 var chargeur = [];
 var life = true
 var shoot;
-
 btn_tire.disabled = true
 
 function restartGame(){
